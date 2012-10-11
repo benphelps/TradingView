@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE9454F4162768AA00A1E31C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9454F3162768AA00A1E31C /* Cocoa.framework */; };
+		AE9454FE162768AA00A1E31C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE9454FC162768AA00A1E31C /* InfoPlist.strings */; };
+		AE945500162768AA00A1E31C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9454FF162768AA00A1E31C /* main.m */; };
+		AE945504162768AA00A1E31C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AE945502162768AA00A1E31C /* Credits.rtf */; };
+		AE945507162768AA00A1E31C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE945506162768AA00A1E31C /* AppDelegate.m */; };
+		AE94550A162768AA00A1E31C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE945508162768AA00A1E31C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE9454EF162768AA00A1E31C /* TradingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9454F3162768AA00A1E31C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AE9454F6162768AA00A1E31C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AE9454F7162768AA00A1E31C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AE9454F8162768AA00A1E31C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE9454FB162768AA00A1E31C /* TradingView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TradingView-Info.plist"; sourceTree = "<group>"; };
+		AE9454FD162768AA00A1E31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AE9454FF162768AA00A1E31C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE945501162768AA00A1E31C /* TradingView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TradingView-Prefix.pch"; sourceTree = "<group>"; };
+		AE945503162768AA00A1E31C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AE945505162768AA00A1E31C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE945506162768AA00A1E31C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE945509162768AA00A1E31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9454EC162768A900A1E31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9454F4162768AA00A1E31C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE9454E4162768A900A1E31C = {
+			isa = PBXGroup;
+			children = (
+				AE9454F9162768AA00A1E31C /* TradingView */,
+				AE9454F2162768AA00A1E31C /* Frameworks */,
+				AE9454F0162768AA00A1E31C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE9454F0162768AA00A1E31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE9454EF162768AA00A1E31C /* TradingView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE9454F2162768AA00A1E31C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE9454F3162768AA00A1E31C /* Cocoa.framework */,
+				AE9454F5162768AA00A1E31C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE9454F5162768AA00A1E31C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE9454F6162768AA00A1E31C /* AppKit.framework */,
+				AE9454F7162768AA00A1E31C /* CoreData.framework */,
+				AE9454F8162768AA00A1E31C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AE9454F9162768AA00A1E31C /* TradingView */ = {
+			isa = PBXGroup;
+			children = (
+				AE945505162768AA00A1E31C /* AppDelegate.h */,
+				AE945506162768AA00A1E31C /* AppDelegate.m */,
+				AE945508162768AA00A1E31C /* MainMenu.xib */,
+				AE9454FA162768AA00A1E31C /* Supporting Files */,
+			);
+			path = TradingView;
+			sourceTree = "<group>";
+		};
+		AE9454FA162768AA00A1E31C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9454FB162768AA00A1E31C /* TradingView-Info.plist */,
+				AE9454FC162768AA00A1E31C /* InfoPlist.strings */,
+				AE9454FF162768AA00A1E31C /* main.m */,
+				AE945501162768AA00A1E31C /* TradingView-Prefix.pch */,
+				AE945502162768AA00A1E31C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE9454EE162768A900A1E31C /* TradingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE94550D162768AA00A1E31C /* Build configuration list for PBXNativeTarget "TradingView" */;
+			buildPhases = (
+				AE9454EB162768A900A1E31C /* Sources */,
+				AE9454EC162768A900A1E31C /* Frameworks */,
+				AE9454ED162768A900A1E31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradingView;
+			productName = TradingView;
+			productReference = AE9454EF162768AA00A1E31C /* TradingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE9454E6162768A900A1E31C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Ben Phelps";
+			};
+			buildConfigurationList = AE9454E9162768A900A1E31C /* Build configuration list for PBXProject "TradingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AE9454E4162768A900A1E31C;
+			productRefGroup = AE9454F0162768AA00A1E31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE9454EE162768A900A1E31C /* TradingView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE9454ED162768A900A1E31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9454FE162768AA00A1E31C /* InfoPlist.strings in Resources */,
+				AE945504162768AA00A1E31C /* Credits.rtf in Resources */,
+				AE94550A162768AA00A1E31C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE9454EB162768A900A1E31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE945500162768AA00A1E31C /* main.m in Sources */,
+				AE945507162768AA00A1E31C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE9454FC162768AA00A1E31C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE9454FD162768AA00A1E31C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AE945502162768AA00A1E31C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE945503162768AA00A1E31C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AE945508162768AA00A1E31C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE945509162768AA00A1E31C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE94550B162768AA00A1E31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AE94550C162768AA00A1E31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AE94550E162768AA00A1E31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TradingView/TradingView-Prefix.pch";
+				INFOPLIST_FILE = "TradingView/TradingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AE94550F162768AA00A1E31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TradingView/TradingView-Prefix.pch";
+				INFOPLIST_FILE = "TradingView/TradingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE9454E9162768A900A1E31C /* Build configuration list for PBXProject "TradingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE94550B162768AA00A1E31C /* Debug */,
+				AE94550C162768AA00A1E31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE94550D162768AA00A1E31C /* Build configuration list for PBXNativeTarget "TradingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE94550E162768AA00A1E31C /* Debug */,
+				AE94550F162768AA00A1E31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE9454E6162768A900A1E31C /* Project object */;
+}
