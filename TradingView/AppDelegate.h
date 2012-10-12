@@ -7,9 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <Webkit/Webkit.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    @private WebView *tradingview;
+}
 
 @property (assign) IBOutlet NSWindow *window;
+@property (strong) IBOutlet WebView *tradingview;
 
 @end

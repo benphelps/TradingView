@@ -13,6 +13,8 @@
 		AE945504162768AA00A1E31C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AE945502162768AA00A1E31C /* Credits.rtf */; };
 		AE945507162768AA00A1E31C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE945506162768AA00A1E31C /* AppDelegate.m */; };
 		AE94550A162768AA00A1E31C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE945508162768AA00A1E31C /* MainMenu.xib */; };
+		AE945511162768B400A1E31C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE945510162768B400A1E31C /* WebKit.framework */; };
+		AE94551916276FDB00A1E31C /* favicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = AE94551816276FDB00A1E31C /* favicon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		AE945505162768AA00A1E31C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE945506162768AA00A1E31C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE945509162768AA00A1E31C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AE945510162768B400A1E31C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AE94551816276FDB00A1E31C /* favicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = favicon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE945511162768B400A1E31C /* WebKit.framework in Frameworks */,
 				AE9454F4162768AA00A1E31C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +51,8 @@
 		AE9454E4162768A900A1E31C = {
 			isa = PBXGroup;
 			children = (
+				AE94551816276FDB00A1E31C /* favicon.icns */,
+				AE945510162768B400A1E31C /* WebKit.framework */,
 				AE9454F9162768AA00A1E31C /* TradingView */,
 				AE9454F2162768AA00A1E31C /* Frameworks */,
 				AE9454F0162768AA00A1E31C /* Products */,
@@ -156,6 +163,7 @@
 				AE9454FE162768AA00A1E31C /* InfoPlist.strings in Resources */,
 				AE945504162768AA00A1E31C /* Credits.rtf in Resources */,
 				AE94550A162768AA00A1E31C /* MainMenu.xib in Resources */,
+				AE94551916276FDB00A1E31C /* favicon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +265,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TradingView/TradingView-Prefix.pch";
 				INFOPLIST_FILE = "TradingView/TradingView-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
+				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -269,7 +281,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TradingView/TradingView-Prefix.pch";
 				INFOPLIST_FILE = "TradingView/TradingView-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
+				VALID_ARCHS = x86_64;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
