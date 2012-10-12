@@ -10,7 +10,6 @@
 
 @implementation AppDelegate
 @synthesize tradingview;
-@synthesize extraview;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -60,7 +59,6 @@ decidePolicyForNewWindowAction:(NSDictionary *)actionInformation
 
 - (void) updateWindowTitle: (NSString*) title {
 	[[tradingview window]setTitle:title];
-    [[extraview window]setTitle:title];
 }
 
 @end
