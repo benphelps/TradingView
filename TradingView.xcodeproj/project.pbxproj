@@ -309,6 +309,7 @@
 				AE94550F162768AA00A1E31C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
