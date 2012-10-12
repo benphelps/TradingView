@@ -30,11 +30,10 @@
 
 - (void)webView:(WebView *)webView
 decidePolicyForNavigationAction:(NSDictionary *)actionInformation
-        request:(NSURLRequest *)request frame:(WebFrame *)frame
-decisionListener:(id < WebPolicyDecisionListener >)listener
+                        request:(NSURLRequest *)request frame:(WebFrame *)frame
+               decisionListener:(id < WebPolicyDecisionListener >)listener
 {
     NSString *host = [[request URL] host];
-    NSLog(host);
     if ([host rangeOfString:@"www.tradingview.com"].location == NSNotFound) {
         // stop loading external shit
     } else {
@@ -42,8 +41,12 @@ decisionListener:(id < WebPolicyDecisionListener >)listener
     }
 }
 
-- (void)webView:(WebView *)webView decidePolicyForNewWindowAction:(NSDictionary *)actionInformation request:(NSURLRequest *)request newFrameName:(NSString *)frameName decisionListener:(id < WebPolicyDecisionListener >)listener {
-    
+- (void)webView:(WebView *)webView
+decidePolicyForNewWindowAction:(NSDictionary *)actionInformation
+                       request:(NSURLRequest *)request
+                  newFrameName:(NSString *)frameName
+              decisionListener:(id < WebPolicyDecisionListener >)listener
+{
     NSString *host = [[request URL] host];
     if (host) {
         // load in users default browser
@@ -51,7 +54,6 @@ decisionListener:(id < WebPolicyDecisionListener >)listener
     } else {
         [listener use];
     }
-    
 }
 
 - (void) updateWindowTitle: (NSString*) title {
